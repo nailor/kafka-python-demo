@@ -49,10 +49,14 @@ First, let's install
 pip install kafka-python
 ```
 
-Let's try writing a simple producer
-```python
+Then the jupyter:
 
-kafka = KafkaClient('192.168.99.100:9092')
+```shell
+pip install jupyter
+```
 
-192.168.99.100
+Now you are good to go and can launch the attached notebook!
+
+```shell
+jupyter notebook Kafka\ Demo.ipynb
 ```
